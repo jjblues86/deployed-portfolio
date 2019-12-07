@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjblues86/deployed-portfolio.git"
+  },
+  "author": "Jerome Joof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjblues86/deployed-portfolio/issues"
+  },
+  "homepage": "https://github.com/jjblues86/deployed-portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
