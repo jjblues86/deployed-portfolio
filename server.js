@@ -13,10 +13,10 @@ app.get('/jabinSmiles', function(req, res){
   });
 })
 
-
-app.listen(3000, function() {
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, function() {
   // res.send('you made it!')
-  console.log(`app is up on PORT 3000`);
+  console.log(`app is up on ${PORT} 3000`);
 });
 
 
